@@ -1,0 +1,56 @@
+<div>
+    <p style="color:rgb(207, 59, 155)" h2><b>SolarWinds:</b></h2>
+    </p> The SolarWinds hack was a software supply chain attack perpetrated against American
+    software
+    company SolarWinds, which develops and maintains network monitoring tools used by major businesses and
+    government agencies.
+    Hackers purportedly compromised SolarWinds' Orion software build via an already-compromised Microsoft Office
+    365 account.
+    Backdoors were later distributed into user networks once tainted Orion updates were installed.
+</div>
+<div>According to a statement by SolarWinds. the attackers ran a master class in novel hacking techniques created a
+    system that used domain names to
+    select targets and mimicked the Orion software communication protocols so they could hide in plain sight, which were
+    installed by customers in the spring of 2020</div>
+<div>But the hackers had already gained access to SolarWinds’ software development system in October of 2019,
+    according to Security Week, likely through SolarWinds’ already-compromised Microsoft Office 365 account.</div>
+<p>hackers then spent months implementing botnet command-and-control protocols, and in March of 2020, began inserting
+    trojans into the updates that customers would ultimately install.
+    Once installed, this malware, dubbed SUNBURST, distributed backdoors that communicate to third-party servers into
+    customers’ systems, giving the hackers remote access to emails, confidential documents, and other sensitive
+    information.
+    But here’s the worst part: neither SolarWinds nor its customers knew that any sort of breach had occurred until
+    December of 2020, more than a year after the hackers initially gained access to SolarWinds’ build environment and
+    nine months after the first poisoned update was released in March.
+    the malicious code was inserted into an Orion plug-in called SolarWinds.Orion.Core.BusinessLayer.dll, a typical
+    library component found in Orion software updates.
+</p>
+<p>This compromised plug-in was digitally signed by a seemingly valid but actually compromised SolarWinds certificate.
+    In other words, it was able to masquerade, totally undetected, as a legitimate, trusted, SolarWinds-verified library
+    file that, once executed, whether during an automatic update or manually by the user, would begin to wreak its
+    havoc, the user unwitting all the while.
+    the backdoor was designed to remain dormant for 14 days before retrieving and executing commands that include the
+    ability to transfer files, execute files, profile the system, reboot the machine, and disable system services,
+    according to cybersecurity company FireEye, which was also affected by the attack.
+</p>
+<b>
+    <p style="color:rgb(207, 59, 155)" p>Who was affected by the SolarWinds hack?</p>
+</b>
+<p style="color:rgb(207, 59, 155)" p>Names of Businesses that got affected</p>
+
+</p>Microsoft</p>
+<p>• Intel</p>
+<p>• NVIDIA</p>
+<p>• Cisco</p>
+<p>• Belkin</p>
+<p>• VMware</p>
+<p>• FireEye</p>
+
+
+<p style="color:rgb(207, 59, 155)">Names of Agenciest hat got affected</p>
+<p>• The United States Department of Homeland Security</p>
+<p>• The United States Treasury Department</p>
+<p>• The United States Department of Commerce</p>
+<p>• The United States Department of State</p>
+<p>• The United States Department of Energy</p>
+<p>• The United States Nuclear Security Administration</p>
